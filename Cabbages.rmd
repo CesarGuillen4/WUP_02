@@ -27,18 +27,28 @@ veggy <- cabbages
 
 # Results
 
+
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
-## Descriptive Results
+## Descriptitive Results
 
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+The median in the c39 group of cabbages is just above 50. In the c52 group of cabbages is just below 70. Therefore the cabbages in c52 have more amount of VitC than the cabbages in c39. 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
 
+The median amount of VitC for c39 is 51, whereas the median for c52 is 58. The minimum amounts can also prove which cult of cabbages will be better by the minimums. The minimum for c39 is 41, where the minimu  for c52 is 47. Therefore c52 is going to be the cult that has the higher amount of VitC. 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->

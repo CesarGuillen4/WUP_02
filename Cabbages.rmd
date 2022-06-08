@@ -58,9 +58,10 @@ The median amount of VitC for c39 is 51, whereas the median for c52 is 58. The m
 t.test(VitC~Cult,data=veggy)
 ```
 
-The chances of the results to come back in a negative form would be very low, as stated in the p value its a 3.405 chance. Meaning that there would be no difference between the two. 
+The chances of the results to come back in a negative form would be very low, as stated in the p value its a 0.000000003405 chance. Meaning that there would be no difference between the two. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+The c52 had a higher 50 percentile than the c39 percentile. It also goes the same as their maximums, where the c52 had a higher maximum than the c39, where c52 reached 84 and c39 reached 68. As for the quartiles the c52 had the higher first quartile than the c39 third quartile which says a lot. The same apply here the c52 has an overall higher percentile overall than the c39 percentiles. 
